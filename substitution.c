@@ -59,7 +59,7 @@ int main(int argc, string argv[])
             cifer_len = j;
         }
 
-    cifer[j] = '\0'; // Terminar la cadena con un carácter nulo
+    cifer[j] = '\0'; // Termina la cadena con un carácter nulo
     printf("ciphertext: %s\n", cifer);
 
     return 0;
